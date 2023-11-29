@@ -1,0 +1,61 @@
+.grille-projets-des {
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    justify-content: space-between; 
+}
+
+.grille-projets-des a{
+    width: 100%;
+    margin-bottom: 6vh;  
+}
+
+.grille-projets-des img{
+    margin-bottom: 1vh;
+    width: 100%
+}
+
+.grille-projets-des p{
+    font-size: 1.68vw;
+    font-weight: 400;
+}
+
+.grille-projets-des img:hover{
+    box-shadow: 5px 5px 9px 0px rgba(216,207,202,0.6);   
+}
+
+
+
+/*REPONSIVE______________________________________________________________________*/
+
+@media screen and (orientation:portrait){
+
+
+.grille-projets-des {
+    grid-template-columns: 100%;
+}
+    
+.grille-projets-des a{
+    margin-bottom: 7vh;
+}
+    
+.grille-projets-des img{
+    margin-bottom: 1vh;
+}
+    
+
+.grille-projets-des p{
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 0.2vh;
+}
+
+
+.grille-projets-des h3{
+    font-size: 2vw;
+    text-align: center;
+}
+    
+   
+
+
+}

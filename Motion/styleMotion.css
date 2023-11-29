@@ -1,0 +1,78 @@
+
+h2{
+    margin-bottom: 0.3vh;
+}
+
+
+.blocMotion video{
+    height: fit-content;
+    width: 100%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;   
+}
+
+
+
+
+
+/*REDIRECTION________________________________________________________*/
+
+
+.redirection{
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redirection button{
+    background-color: #F9F3EF;
+    border-color: #EE7F5B;  
+    font-size: 1.4vw;
+    margin-left: 0px;
+    margin-right: 0px;  
+    
+}
+
+.button-redirection :hover{
+    background-color: #EE7F5B;
+    border-color: #EE7F5B; 
+    font-weight: 550 ;
+    color: #F9F3EF;
+
+}
+
+
+
+
+
+
+
+/*REPONSIVE__________________________________________________________________________________________________________*/
+
+@media screen and (orientation:portrait){
+
+.redirection button{
+    border-color: #EE7F5B; 
+    background-color: #EE7F5B;
+    font-weight: 500 ;
+    color: #F9F3EF; 
+    font-size: 2vw;
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+/* .blocMotion{
+    margin-bottom: 8vh;
+
+} */
+
+.blocMotion h2, h3{
+    text-align: center;
+}
+
+
+
+}
+

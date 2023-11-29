@@ -1,0 +1,470 @@
+/*GENERAL________________*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    cursor: pointer;
+     /* blue colors for links too */
+   text-decoration: inherit; /* no underline */
+}
+
+
+/*Importer une font@*/
+@font-face {
+    font-family: 'Inter';
+    src: url("./Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'Bricolage';
+    src: url("./Font/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf");
+}
+
+body{
+    font-family: 'Inter';
+    background: #F9F3EF;
+    text-decoration: none;
+
+}
+
+
+/*MARGIN GENERALES____________________________________________________________*/
+
+.blocIndex{
+    margin-bottom: 20vh;
+}
+
+
+.blocProjet{
+    margin-bottom: 12vh;
+}
+
+
+.contentWidth{
+    width: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+/*TEXTES______________________________________________________________________*/
+
+h1{
+    font-family: 'Bricolage';
+    font-size: 2.7vw;
+    font-weight: 400;
+    color: #39394a;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+
+h2{
+    font-weight: 400;
+    font-size: 2vw;
+    color: #181717;
+}
+
+
+h3{
+    font-weight: 300;
+    font-size: 1.2vw;
+    font-style: oblique 11deg;
+    color: #939393;
+
+    margin-bottom: 1vh;
+
+}
+
+
+h4{
+    font-family: 'Bricolage';
+    font-size: 2vw;
+    font-weight: 400;
+    color: #181717;
+    text-align: center;
+
+    margin-bottom: 3vh;
+}
+
+
+p{
+    font-weight: 300;
+    font-size: 1.3vw;
+    color: #181717;
+}
+
+
+.baseline {
+    margin-bottom: 7vh;
+    width: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+
+}
+
+
+/*NAVIGATION________________________________________________________________*/
+
+header{
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+    /* z-index: 1; */
+}
+
+
+/* .headerDesktop{
+    background-color: fuchsia;
+    display: none;
+} */
+
+.home-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    margin-bottom: 3vh;
+}
+
+
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+
+.headerMobile{
+    display: none ;
+}
+
+
+.boutonMenu{
+    margin-top: 10vh;
+    display: block;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ouverture{
+    background-color: white;
+    padding: 10vh 0vw
+}
+
+.ouverture p{
+    /* background-color: rebeccapurple; */
+color: #7979BC;
+   font-size: 4.5vw;
+   font-weight: 500;
+   text-align: center; 
+   margin: 2vh 0vw;
+}
+
+
+
+
+
+
+/*BUTTON________________________________________________________________*/
+
+button{
+    font-family: 'Inter';
+    font-size: 1vw;
+    font-weight: 350;
+
+
+    color:#181717;
+    border-radius: 100px;
+    border: 2.5px solid;
+
+    position: relative;
+    padding: 0.45vh 1.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+}
+
+
+.button-design button{
+    background-color: #F9F3EF;
+    border-color: #F191BA;
+}
+
+.button-motion button{
+    background-color: #F9F3EF;
+    border-color:  #EE7F5B;
+}
+
+.button-photo button{
+    background-color: #F9F3EF;
+    border-color:#A2C997;
+}
+
+.button-archives button{
+    background-color: #F9F3EF;
+    border-color:#7979BC;
+}
+
+
+ /*BUTTON HOVER________________________________________________________________*/
+
+
+.main-nav button:hover{
+    font-weight: 550;
+}
+
+.main-nav button::before{
+    content: attr(data-label);
+    font-weight: 550;
+    visibility: hidden;
+}
+
+.button_label{
+    position: absolute;
+    top:0.45vh;
+    left:1.5vw;
+    right: 1.5vw;
+    bottom: 0.45vh;
+}
+
+.button-design :hover {
+    background-color: #F191BA;
+    border-color: #F191BA;
+    color: #F9F3EF;
+}
+
+.button-motion :hover {
+    background-color: #EE7F5B;
+    border-color: #EE7F5B;
+    color: #F9F3EF;
+}
+
+.button-photo :hover {
+    background-color: #A2C997;
+    border-color: #A2C997;
+    color: #F9F3EF;
+}
+
+.button-archives :hover {
+    background-color: #7979BC;
+    border-color: #7979BC;
+    color: #F9F3EF;
+}
+
+
+
+/*BUTTON SELECTED________________________________________________________________*/
+
+.button-design-selected button{
+    background-color: #F191BA;
+    border-color: #F191BA;
+    font-weight: 550 ;
+    color: #F9F3EF;
+}
+
+.button-motion-selected button{
+    background-color: #EE7F5B;
+    border-color: #EE7F5B;
+    font-weight: 550 ;
+    color: #F9F3EF;
+}
+
+.button-photo-selected button{
+    background-color: #A2C997;
+    border-color: #A2C997;
+    font-weight: 550 ;
+    color: #F9F3EF;
+}
+
+.button-archives-selected button{
+    background-color: #7979BC;
+    border-color: #7979BC;
+    font-weight: 550 ;
+    color: #F9F3EF;
+}
+
+
+
+
+
+/*DISCOVERY_______________________________________________________________*/
+
+/* .discovery p{
+    font-size: 2vh;
+    max-width: max-content;
+} */
+
+
+
+
+/*FOOTER____________________________________________________________________*/
+
+footer{
+    background-color: #7979BC;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    margin-top: 15vh;
+}
+
+footer p{
+    color: #F9F3EF;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+footer h1{
+    color: #F9F3EF;
+    margin-bottom: 2vh;
+}
+
+
+.redirection{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 2vh;
+}
+
+.redirection img {
+    width: 3.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*REPONSIVE__________________________________________________________________________________________________________*/
+
+@media screen and (orientation:portrait){
+
+
+
+
+button{
+    border: 4px solid;
+    font-size: 2vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+/*MARGES_____*/
+
+.blocIndex{
+    margin-bottom: 15vh;
+}
+
+
+.blocProjet{
+    margin-bottom: 12vh;
+}
+
+
+
+.contentWidth{
+    width: auto;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+
+
+
+
+
+
+
+/*TEXTES_________________________________________________________________*/
+
+h1{
+    font-size: 5.5vw;
+    font-weight: 400;
+    margin-bottom: 2.5vh;
+}
+    
+
+h2{
+    font-size: 3vw;
+}
+
+p{
+    font-size: 2.5vw;
+}
+
+
+.baseline {
+    margin-bottom: 6vh;
+    width: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+h4{
+    font-size: 3.7vw ;
+}
+
+
+/*NAVIGATION________________________________________________________________*/
+
+.home-logo{
+    width: 20vw;
+    margin-top: 10vh;
+}
+
+
+/* .main-nav{
+    display: none;
+} */
+
+header{
+    margin-bottom: 10vh;
+}
+
+    
+
+
+
+/*FOOTER________________________________________________________________*/
+
+footer{
+    background-color: #7979BC;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    margin-top: 10vh;
+}
+
+
+    
+footer p{
+    color: #F9F3EF;
+    margin-bottom: 5vh;
+}
+
+.redirection img {
+    width: 7vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+
+
+}

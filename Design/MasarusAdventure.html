@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masaru's Adventure</title>
+    <link rel="stylesheet" href="../styleCommun.css">
+    <link rel="stylesheet" href="styleDesign.css">
+    <link rel="stylesheet" href="styleProjet.css">
+    <link rel="stylesheet" href="styleProjetSpec.css">
+    <link rel="icon" href="../Assets/Icons/Meraki-favicon.svg">
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+    <header>
+        <a href="../index.html"> 
+            <img src="../Assets/Icons/Meraki-logo-horizontal.svg" class="home-logo" alt="Logo du site">
+        </a>
+
+        <nav class="main-nav">
+            <a href="../Design/Design.html" class="button-design-selected"> 
+                <button data-label="Design">
+                    <span class="button_label">
+                        Design
+                    </span>
+                </button> 
+            </a>
+            <a href="../Motion/Motion.html" class="button-motion"> 
+                <button data-label="Motion et Vidéo">
+                    <span class="button_label">
+                        Motion et vidéo
+                    </span>
+                </button>  
+            </a>
+            <a href="../Photo/Photographie.html" class="button-photo"> 
+                <button data-label="Photographie">
+                    <span class="button_label">
+                        Photographie
+                    </span>
+                </button>  
+            </a>
+            <a href="../Archives/Archives.html" class="button-archives"> 
+                <button data-label="Archives">
+                    <span class="button_label">
+                        Archives
+                    </span>
+                </button> 
+            </a>
+        </nav>
+    </header>
+
+    <main>
+         <!--IDENTITY--------------------------------->
+        <div class="identity contentWidth">
+            <h1>Masaru's Adventure</h1>
+            <div class="roles">
+                <p>Gestion de projet</p>
+                <p>UI-UX</p>
+                <p>Game Design</p>
+            </div>  
+
+            <div>
+                <video muted autoplay loop
+                src="../Assets/Projets/Projet 1/P1-Gameplay.mov" 
+                alt="Gameplay du jeu vidéo Masaru's Adventure" 
+                type="video/mp4"
+                controlslist="autoplay"
+                preload="metadata">
+                </video>
+            </div>
+        </div>
+
+
+
+        <div class="conteneur-projet contentWidth">
+            
+            <!--INTRO--------------------------------->
+            <div class="introduction blocProjet">
+                <h3>Projet scolaire - Janvier à Mai 2023</h3>
+                <p>Masaru's Adventure est un jeu vidéo réalisé dans le cadre de notre projet de fin d'année de Bachelor 1. Ce projet c’est 4 personnes et 4 mois pour apprendre à travailler ensemble et imaginer de A à Z un jeu vidéo en 2D. </p>
+            </div>
+
+            <!--SECTION A--------------------------------->
+            <div class="sA blocProjet">
+                <h4>La conception</h4>
+                <img src="../Assets/Projets/Projet 1/P1-Conception.png" alt="Équipe lors des premiers jours de Conception">
+                <p>Ce projet est le produit de la collaboration entre 1 développeur et 3 designers. C’est tous ensemble que nous avons construit l’histoire, le gameplay, mais aussi tout le parcours utilisateur de notre jeu. </p>
+            </div>
+                
+           <!--SECTION B--------------------------------->
+            <div class="sB blocProjet HistoireMasaru">
+                <h4 class="h4-HistoireMasaru">L'histoire</h4>
+                <div class="sB-content">
+                    <img src="../Assets/Projets/Projet 1/P1-Shamisen.png" alt="Description">
+                    <p>Depuis la nuit des temps, l’Île de Kyushu vie dans la paix et l’harmonie. Cet équilibre est maintenu par un instrument de musique magique, un shamisen sacré, qui se transmet de génération en génération. Malheureusement, depuis, près d’un siècle, un sort terrible s’abat sur les habitants. Les cordes du shamisen ont été brisées et perdues, les plongeant ainsi dans les ténèbres. Incarnez Masaru, le jeune fils du chef du village, et retrouvez les cordes !</p>
+                </div>
+            </div>
+
+            <!--SECTION C--------------------------------->
+            <div class="sC blocProjet AnimationMasaru">
+                <h4>L'animation</h4>
+
+                 <!--Texte mobile-->
+                <div class="content-AnimationMasaru">
+
+                    <p class="animMasaruMobile">Avec pour contrainte de réaliser un jeu en 2D, nous avons choisi de réaliser ce jeu en pixel art et d'effectuer l'animation image par image. Les personnages possèdent plusieurs sens de déplacement. Il y a différents personnages avec lesquels le héros peut interagir tout au long de ses quêtes.</p>
+                    <div class="grille-2-projet">
+                        <img src="../Assets/Projets/Projet 1/P1-Animation-Panda.gif" alt="GIF personnage Panda">
+                        <img src="../Assets/Projets/Projet 1/P1-Animation-Walk.gif" alt="GIF Masaru marchant">
+                    </div>
+
+                    <!--Texte desktop-->
+                    <p class="animMasaruDesktop">Avec pour contrainte de réaliser un jeu en 2D, nous avons choisi de réaliser ce jeu en pixel art et d'effectuer l'animation image par image. Les personnages possèdent plusieurs sens de déplacement. Il y a différents personnages avec lesquels le héros peut interagir tout au long de ses quêtes.</p>
+                </div>
+            </div>
+
+
+
+            <!--SECTION A--------------------------------->
+            <div class="sA blocProjet UIMasaru">
+                <h4>L'interface</h4>
+                <img src="../Assets/Projets/Projet 1/P1-UI.png" alt="Interface de l'écran d'accueil">
+                <p>Afin de s’adresser à un public large, nous avons gardé une interface simple et claire, cohérente avec le style pixel art de l’ensemble du jeu.</p>
+            </div>
+
+
+
+            <!--SECTION A--------------------------------->
+            <div class="sA blocProjet JeuMasaru">
+                <h4>À votre tour !</h4>
+                <!--Muter la vidéo pour la lancer en autoplay (conditions du navigateur)-->
+                    <video muted autoplay loop
+                    class="project-vid"
+                    src="../Assets/Projets/Projet 1/P1-jeu.mp4" 
+                    alt="Animation du shamisen complet" 
+                    type="video/mp4"
+                    controlslist="autoplay"
+                    preload="metadata">
+                    </video>
+                <p>C’est à vous désormais de relever le défi et d’aider Masaru à rétablir la paix sur l’île en retrouvant les cordes du shamisen !</p>
+                
+                <div class="redirectionjeu">
+                    <a href="https://yey-team.com/Masarus-Adventure/" class="buttonMasaru" target="_blank">
+                        <button>Je pars à l'aventure !</button>
+                    </a>
+                </div>
+            </div>
+            
+
+            <!--SECTION D--------------------------------->
+            <div class="sD blocProjet EquipeMasaru">
+                <h4>Mon équipe</h4>
+                <p class="textEquipe">Ce projet ne serait rien sans mon équipe. Ces 4 mois de projet nous auront appris plus que jamais à travailler ensemble et à nous dépasser. Merci !</p>
+
+                <div class="iconcentre">
+                    <div class="Mathieu equipe">
+                        <a href="https://mathieu-chavanel.fr/" target="_blank">
+                            <img src="../Assets/Icons/Icon_Dev.svg" alt="Description" class="Icon-spe">
+                            <p>Mathieu Chavanel</p>
+                        </a>
+                        <h3>Développeur</h3>
+                    </div>
+
+                    <div class="Pablo equipe">
+                        <a href="https://www.instagram.com/pablito.psd/" target="_blank">
+                            <img src="../Assets/Icons/Icon_Des.svg" alt="Description" class="Icon-spe">
+                            <p>Pablo Delcloy</p>
+                        </a>
+                        <h3>Designer</h3>
+                    </div>
+
+                    <div class="Tim equipe">
+                        <a href="https://www.instagram.com/theotime_nbt/" target="_blank">
+                            <img src="../Assets/Icons/Icon_Des.svg" alt="Description" class="Icon-spe">
+                            <p>Théotime Noblet</p>
+                        </a>
+                        <h3>Designer</h3>
+                    </div>
+                </div>
+
+
+                
+            </div>
+
+
+    
+
+           <!--NAV--------------------------------->
+           <nav class="project-nav">
+               <a href="Projet-0.html"> <button class="button-project-nav">Projet précedent</button> </a>
+               <!-- Ajouter projet suivant dans le précedent -->
+               <a href="LAE.html"> <button class="button-project-nav">Projet suivant</button> </a>
+           </nav>
+       </div>
+
+    </main>
+
+
+
+
+
+    <footer>
+
+        <div class="contact contentWidth">
+            <h1>On travaille ensemble ?</h1>
+            <p>Pour découvrir mon univers au quotidien, suivre l’avancement de mes projets, papoter ou travailler ensemble : rejoignez moi !</p>
+        </div>
+
+        <div class="redirection">
+            <a href="https://www.instagram.com/meraki.fr/" target="_blank"> 
+                <img src="../Assets/Icons/Icon-instagram-main.svg" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@meraki.fr?_t=8xxk2wxxm6q&_r=1" target="_blank"> 
+                <img src="../Assets/Icons/Icon-tiktok-main.svg" alt="Tiktok">
+            </a>
+            <a href="https://www.behance.net/elsafreppaz" target="_blank">
+                <img src="../Assets/Icons/Icon-behance-main.svg" alt="Behance">
+            </a>
+            <a href="mailto:itsmerakistudio@gmail.com" target="_blank">
+                <img src="../Assets/Icons/Icon-mail-main.svg" alt="Email">
+            </a>
+            <a href="https://www.linkedin.com/in/elsa-freppaz-08a527207/" target="_blank">
+                <img src="../Assets/Icons/Icon-linkedin-main.svg" alt="Linkedin">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+</html>

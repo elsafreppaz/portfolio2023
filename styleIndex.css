@@ -1,0 +1,205 @@
+/*ABOUT______________________________________________________________*/
+
+.about-contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.about-contenu p{
+    width: auto;
+}
+
+.about-contenu img{
+    width: 200vw;
+    height: auto;
+    margin-right: 3vh;
+}
+
+
+
+/*MERAKI________________________________________________*/
+
+
+.meraki{
+    background-color: #7979BC;
+    padding-top: 7vh;
+    padding-bottom: 10vh;
+}
+
+
+.star{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    width: 5vw;
+}
+
+
+.meraki p{
+    font-family: "Bricolage";
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    color:#F9F3EF;
+    width: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+
+/*CREATION_______________________________________*/
+
+
+.creation h1{
+    margin-bottom: 6vh;
+}
+
+.creation-contenu {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.creation-contenu img{
+    width: 210vw;
+    height: auto;
+    margin-left: 3vh;
+}
+
+
+
+
+
+/*RESPONSIVE_______________________________________________________________________*/
+
+@media screen and (orientation:portrait){
+
+
+/*ABOUT____________________________________________________*/
+
+.about-contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.about-contenu p{
+    width: auto;
+    text-align: center;
+}
+
+
+.about-contenu img{
+    display: block;
+    width: 55vw;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*MERAKI____________________________________________________*/
+
+.meraki{
+    background-color: #7979BC;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+
+.star{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    width: 10vw;
+}
+
+
+.meraki p{
+    font-size: 4vw;
+    font-weight: 350;
+}
+
+
+
+
+/*CREATION____________________________________________________*/
+
+.creation h1{
+    margin-bottom: 3.5vh;
+}
+
+.creation-contenu {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+.creation-contenu p{
+    width: auto;
+    text-align: center;
+}
+
+
+
+.creation-contenu img{
+    margin-left: 0px;
+    margin-bottom: 4vh;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .discovery p{
+    font-weight: 400;
+}
+
+.discovery-covers{
+    width: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.discovery-covers img{
+    width: 14.5vw;
+    margin-bottom: 0.3vh;
+    border-radius: 10px;
+}
+
+.discovery-covers img:hover{
+    box-shadow: 5px 5px 9px 0px rgba(216,207,202,0.6);
+}
+*/
+

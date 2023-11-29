@@ -1,0 +1,226 @@
+/*IDENDITY______________________________________________________________*/
+
+.identity img{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2.5vh;
+}
+
+.identity video{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2.5vh;
+}
+
+
+
+/*_ROLES___________*/
+
+.roles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5vh;  
+} 
+
+
+.roles p{
+    border: 2.5px solid #F191BA;
+    font-size: 1.2vw;
+    border-radius: 7px;
+    padding: 0.45vh 1.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+
+
+
+
+/*PROJET______________________________________________________________*/
+
+.conteneur-projet img{
+    margin-bottom: 1.618vh;
+}
+
+.conteneur-projet video{
+    margin-bottom: 1.618vh;
+}
+
+
+.sA img,video{
+    width: 100%;
+    height: fit-content;
+}
+
+
+.sB-content{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.sB-content img{
+    height: auto;
+    width: 30vw;
+    margin-right: 1vw;
+    margin-bottom: 0px;;
+    
+} 
+
+     
+.grille-3-projet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+.grille-3-projet img{
+    width: 33%;
+}
+
+
+
+.grille-2-projet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.grille-2-projet img{
+    width: 49%;
+}
+ 
+    
+    
+/*NAV PROJET______________________________________________________________*/
+    
+.project-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+    
+.project-nav button{
+    background-color: #F9F3EF;
+    border-color: #F191BA;  
+    font-size: 1.2vw;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+    
+.button-project-nav:hover{
+    background-color: #F191BA;
+    background-color: #F191BA;
+    font-weight: 550 ;
+    color: #F9F3EF;
+}
+
+
+
+
+/*REPONSIVE______________________________________________________________________*/
+
+@media screen and (orientation:portrait){
+
+
+
+/*_ROLES___________*/
+
+.roles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5vh;  
+} 
+
+
+.roles p{
+    border: 3.5px solid #F191BA;
+    font-size: 2vw;
+    border-radius: 8px;
+    padding: 0.45vh 1.5vw;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+}
+
+
+
+
+
+/*CONTENT___________________________________*/
+
+
+.grille-2-projet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grille-2-projet img{
+    width: 100%;
+    margin-bottom: 2vh;
+}
+ 
+
+
+
+/* .grille-3-projet{
+    background-color: #F191BA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+.grille-3-projet img{
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+/*NAV PROJET______________________________________________________________*/
+    
+.project-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+    
+.project-nav button{
+
+    border-color: #7979BC; 
+    background-color: #7979BC;
+    font-weight: 500 ;
+    color: #F9F3EF; 
+    font-size: 2vw;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
