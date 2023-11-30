@@ -50,8 +50,10 @@
 
 .sA img,video{
     width: 100%;
-    height: fit-content;
 }
+
+
+
 
 
 .sB-content{ 
@@ -59,13 +61,12 @@
     flex-direction: row;
 }
 
-.sB-content img{
-    height: auto;
-    width: 30vw;
-    margin-right: 1vw;
-    margin-bottom: 0px;;
-    
-} 
+
+
+
+
+
+
 
      
 .grille-3-projet{
@@ -95,20 +96,38 @@
     
 /*NAV PROJET______________________________________________________________*/
     
-.project-nav{
+.project-nav-Desk{
+    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0px;
 }
     
-.project-nav button{
+.project-nav-Desk button{
     background-color: #F9F3EF;
     border-color: #F191BA;  
     font-size: 1.2vw;
     margin-left: 0px;
     margin-right: 0px;    
 }
+
+
+.button-precedent{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.button-suivant{
+    background-color: #7979BC;
+    align-self: flex-end;
+}
+
+
+
+
+
+
     
 .button-project-nav:hover{
     background-color: #F191BA;
@@ -118,7 +137,9 @@
 }
 
 
-
+.project-nav-Mobile{
+    display: none;
+}
 
 /*REPONSIVE______________________________________________________________________*/
 
@@ -187,35 +208,30 @@
 
 
 /*NAV PROJET______________________________________________________________*/
-    
-.project-nav{
+
+.project-nav-Desk{
+    display: none;
+}
+
+.project-nav-Mobile{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0px;
 }
     
-.project-nav button{
+.project-nav-Mobile button{
 
-    border-color: #7979BC; 
+    border-color: #7979BC;
+    border-radius: 200%;
     background-color: #7979BC;
     font-weight: 500 ;
     color: #F9F3EF; 
-    font-size: 2vw;
+    font-size: 8vw;
     margin-left: 0px;
     margin-right: 0px;    
 }
     
-
-
-
-    
-
-
-
-
-
-
 
 
 

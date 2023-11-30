@@ -1,9 +1,23 @@
 
 /*MASARU______________________________________________________________*/
 
-.HistoireMasaru img{
-    margin-right: 5vw;
+
+.shamisenMobile{
+    display: none;
 }
+
+
+.shamisenDesk{
+    margin-right: 2vw;
+
+}
+
+.shamisenDesk img{
+    width: 20vw;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
 
 
 .animMasaruMobile{
@@ -128,6 +142,38 @@
 
 
 
+.sB-Masaru{
+    flex-direction: column;
+}
+
+
+.shamisenDesk{
+    display: none;
+}
+
+.shamisenMobile{
+    display: block;
+}
+
+.shamisenMobile img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .textEquipe{
     margin-bottom: 4vh;
 }
@@ -153,7 +199,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10vw;
+    width: 20vw;
 }
 
 
@@ -164,7 +210,7 @@
     background-color: #EE7F5B;
     font-weight: 500 ;
     color: #F9F3EF; 
-    font-size: 2vw;
+    font-size: 4vw;
     margin-left: 0px;
     margin-right: 0px; 
 }

@@ -35,27 +35,21 @@
 }
     
 .grille-projets-des a{
-    margin-bottom: 7vh;
+    margin-bottom: 3vh;
+    text-align: center;
 }
     
 .grille-projets-des img{
-    margin-bottom: 1vh;
+    margin-bottom: 0.7vh;
 }
     
 
 .grille-projets-des p{
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 0.2vh;
 }
 
-
-.grille-projets-des h3{
-    font-size: 2vw;
-    text-align: center;
-}
-    
-   
 
 
 }

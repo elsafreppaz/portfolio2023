@@ -365,12 +365,16 @@ button{
 /*MARGES_____*/
 
 .blocIndex{
-    margin-bottom: 15vh;
+    margin-bottom: 12vh;
 }
 
 
 .blocProjet{
-    margin-bottom: 12vh;
+    margin-bottom: 10vh;
+}
+
+.blocMotion{
+    margin-bottom: 7vh;
 }
 
 
@@ -391,35 +395,36 @@ button{
 /*TEXTES_________________________________________________________________*/
 
 h1{
-    font-size: 5.5vw;
+    font-size: 8vw;
     font-weight: 400;
-    margin-bottom: 2.5vh;
+    margin-bottom: 1vh;
 }
     
 
 h2{
-    font-size: 3vw;
+    font-size: 4.9vw;
 }
 
 p{
-    font-size: 2.5vw;
+    font-size: 4vw;
 }
 
 
 .baseline {
-    margin-bottom: 6vh;
+    margin-bottom: 4vh;
     width: auto;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
     text-align: center;
+    
 }
 
 h3{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 h4{
-    font-size: 3.7vw ;
+    font-size: 6vw ;
 }
 
 
@@ -447,22 +452,22 @@ header{
 
 footer{
     background-color: #7979BC;
-    padding-top: 10vh;
-    padding-bottom: 15vh;
-    margin-top: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 20vh;
+    margin-top: 7vh;
 }
 
 
     
 footer p{
     color: #F9F3EF;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 .redirection img {
-    width: 7vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    width: 12vw;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
 
 }
 
