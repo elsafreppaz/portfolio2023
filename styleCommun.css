@@ -173,6 +173,7 @@ color: #7979BC;
 /*BUTTON________________________________________________________________*/
 
 button{
+    cursor: pointer;
     font-family: 'Inter';
     font-size: 1vw;
     font-weight: 350;
@@ -339,6 +340,10 @@ footer h1{
 
 }
 
+
+.redirection img:hover {
+    filter: drop-shadow(2px 2px 10px #5d5da3aa);
+}
 
 
 

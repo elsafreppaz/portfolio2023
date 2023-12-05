@@ -68,12 +68,18 @@
             </div>  
 
             <div>
-                <video muted autoplay loop
-                src="../Assets/Projets/Projet 1/P1-Gameplay.mov" 
+                <video 
+                muted 
+                autoplay 
+                loop playsinline webkit-playsinline
+                width="1920"
+                height="1080"
                 alt="Gameplay du jeu vidéo Masaru's Adventure" 
                 type="video/mp4"
                 controlslist="autoplay"
                 preload="metadata">
+                <source src="../Assets/Projets/Projet 1/P1-Gameplay.mov" type="video/mov">
+                <source src="../Assets/Projets/Projet 1/P1-Gameplay.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
@@ -143,15 +149,28 @@
             <!--SECTION A--------------------------------->
             <div class="sA blocProjet JeuMasaru">
                 <h4>À votre tour !</h4>
-                <!--Muter la vidéo pour la lancer en autoplay (conditions du navigateur)-->
-                    <video muted autoplay loop
+
+
+                <!--Muter la vidéo pour la lancer en autoplay (conditions du navigateur) 
+                    + contrôle spécial pour autoplay en mobile -->
+            
+                    <video 
+                    muted 
+                    autoplay 
+                    loop playsinline webkit-playsinline
+                    width="1920"
+                    height="1080"
                     class="project-vid"
                     src="../Assets/Projets/Projet 1/P1-jeu.mp4" 
                     alt="Animation du shamisen complet" 
                     type="video/mp4"
                     controlslist="autoplay"
                     preload="metadata">
+                    <source src="../Assets/Projets/Projet 1/P1-jeu.mov" type="video/mov">
+                    <source src="../Assets/Projets/Projet 1/P1-jeu.mp4" type="video/mp4">
                     </video>
+
+
                 <p>C’est à vous désormais de relever le défi et d’aider Masaru à rétablir la paix sur l’île en retrouvant les cordes du shamisen !</p>
                 
                 <div class="redirectionjeu">
@@ -202,15 +221,15 @@
 
            <!--NAV--------------------------------->
            <nav class="project-nav-Desk">
-               <a href="Projet-0.html" class="button-precedent"> <button class="button-project-nav">← Projet précedent</button> </a>
+               <a href="" class="hide"> <button class="button-project-nav">← Projet précedent</button> </a>
                <!-- Ajouter projet suivant dans le précedent -->
-               <a href="LAE.html" class="button-suivant"> <button class="button-project-nav">Projet suivant →</button> </a>
+               <a href="LAE.html"> <button class="button-project-nav">Projet suivant →</button> </a>
            </nav>
 
             <nav class="project-nav-Mobile">
-                <a href="Projet-0.html" class="button-precedent"> <button class="button-project-nav">←</button> </a>
+                <a href="" class="hide"> <button class="button-project-nav">←</button> </a>
                 <!-- Ajouter projet suivant dans le précedent -->
-                <a href="LAE.html" class="button-suivant"> <button class="button-project-nav">→</button> </a>
+                <a href="LAE.html"> <button class="button-project-nav">→</button> </a>
             </nav>
        </div>
 

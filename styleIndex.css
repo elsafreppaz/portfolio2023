@@ -12,8 +12,8 @@
 }
 
 .about-contenu img{
-    width: 200vw;
-    height: auto;
+    width: 35vw;
+    height: fit-content;
     margin-right: 3vh;
 }
 

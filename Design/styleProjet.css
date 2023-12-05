@@ -97,7 +97,6 @@
 /*NAV PROJET______________________________________________________________*/
     
 .project-nav-Desk{
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,20 +112,6 @@
 }
 
 
-.button-precedent{
-    background-color: red;
-    align-self: flex-start;
-}
-
-.button-suivant{
-    background-color: #7979BC;
-    align-self: flex-end;
-}
-
-
-
-
-
 
     
 .button-project-nav:hover{
@@ -139,6 +124,15 @@
 
 .project-nav-Mobile{
     display: none;
+    cursor:none;
+}
+
+.hide{
+    opacity: 0%;
+}
+
+.hide button{
+    cursor: default;
 }
 
 /*REPONSIVE______________________________________________________________________*/
@@ -158,7 +152,6 @@
 
 
 .roles p{
-    border: 3.5px solid #F191BA;
     font-size: 2vw;
     border-radius: 8px;
     padding: 0.45vh 1.5vw;
