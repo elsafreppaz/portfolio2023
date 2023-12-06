@@ -11,39 +11,95 @@
 <body>
     
     <header>
-        <a href="../index.html"> 
-            <img src="../Assets/Icons/Meraki-logo-horizontal.svg" class="home-logo" alt="Logo du site">
-        </a>
-        <nav class="main-nav">
-            <a href="../Design/Design.html" class="button-design"> 
-                <button data-label="Design">
-                    <span class="button_label">
-                        Design
-                    </span>
-                </button>
+
+        <!--Header Desktop-->
+        <div class="headerDesktop">
+
+            <!--Logo-->
+            <a href="../index.html"> 
+                <img src="../Assets/Icons/Meraki-logo-horizontal.svg" class="home-logo" alt="Logo du site">
             </a>
-            <a href="../Motion/Motion.html" class="button-motion-selected"> 
-                <button data-label="Motion et Vidéo">
-                    <span class="button_label">
-                        Motion et vidéo
-                    </span>
-                </button>  
-            </a>
-            <a href="../Photo/Photographie.html" class="button-photo"> 
-                <button data-label="Photographie">
-                    <span class="button_label">
-                        Photographie
-                    </span>
-                </button> 
-            </a>
-            <a href="../Archives/Archives.html" class="button-archives"> 
-                <button data-label="Archives">
-                    <span class="button_label">
-                        Archives
-                    </span>
-                </button> 
-            </a>
-        </nav>
+
+            <!--Nav-->
+            <nav class="main-nav">
+                <a href="../Design/Design.html" class="button-design"> 
+                    <button data-label="Design">
+                        <span class="button_label">
+                            Design
+                        </span>
+                    </button>
+                </a>
+                <a href="../Motion/Motion.html" class="button-motion-selected">
+                    <button data-label="Motion et Vidéo">
+                        <span class="button_label">
+                            Motion et vidéo
+                        </span>
+                    </button> 
+                </a>
+                <a href="../Photo/Photographie.html" class="button-photo"> 
+                    <button data-label="Photographie">
+                        <span class="button_label">
+                            Photographie
+                        </span>
+                    </button> 
+                </a>
+                <a href="../Archives/Archives.html" class="button-archives"> 
+                    <button data-label="Archives">
+                        <span class="button_label">
+                            Archives
+                        </span>
+                    </button>
+                </a>
+            </nav>
+        </div>
+
+
+        <!--Header Mobile-->
+        <div class="headerMobile">
+
+            <!--Logo-->
+            <img src="Assets/Icons/Meraki-favicon.svg" alt="logo M." class="boutonMenu">
+
+            <!--Burger Menu-->
+            <div class="ouverture">
+
+                <!--Closing X-->
+                <p class="closing">✕</p>
+
+                <!--Logo-->
+                <!-- <img src="Assets/Icons/Meraki-favicon.svg" alt="logo M." class="boutonMenu"> -->
+              
+                <!--Icon-->
+                <img src="Assets/Icons/Smiley.svg" alt="Stickers smiley" class="smiley">
+
+                <!--Ouverture-->
+                <div class="ouverture-content">
+                    <a href="index.html">
+                        <p>Accueil</p>
+                    </a>
+                    <a href="Design/Design.html">
+                        <p>Design</p>
+                    </a>
+                    <a href="Motion/Motion.html" class="page-active">
+                        <p>Motion et vidéo</p>
+                    </a>
+                    <a href="Photo/Photographie.html" >
+                        <p>Photographie</p>
+                    </a>
+                    <a href="Archives/Archives.html">
+                        <p>Archives</p>
+                    </a>
+                </div>
+
+                <!--Icon-->
+                <img src="Assets/Icons/Candy.svg" alt="Stickers bonbon" class="candy">
+                
+            </div>
+
+        </div>
+        
+
+
     </header>
 
 
