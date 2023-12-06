@@ -117,10 +117,9 @@ header{
 }
 
 
-/* .headerDesktop{
-    background-color: fuchsia;
+.headerDesktop{
     display: none;
-} */
+}
 
 .home-logo{
     display: block;
@@ -138,7 +137,7 @@ header{
 }
 
 .headerMobile{
-    display: none ;
+    display: block;
 }
 
 
@@ -152,23 +151,60 @@ header{
 
 
 .ouverture{
-    background-color: white;
-    padding: 10vh 0vw
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9F3EF;
+    display: block;
+    z-index: 4;
 }
 
 .ouverture p{
-    /* background-color: rebeccapurple; */
-color: #7979BC;
-   font-size: 4.5vw;
+    color: #AFAFD7;
+   font-size: 6vw;
    font-weight: 500;
-   text-align: center; 
+   text-align: center;
    margin: 2vh 0vw;
 }
 
 
+.smiley{
+    position: absolute;
+    top : 22vh;
+    left: 18vw;
+    width: 17vw;
+    transform: rotate(-20deg);
+}
 
+.candy{
+    position: absolute;
+    top : 55vh;
+    right: 15vw;
+    width: 22vw;
+}
 
+.page-active p{
+    color: #7979BC;
+    text-decoration: underline;
+    text-underline-offset: 0.35vh;
+    text-decoration-thickness: from-font;
+}
 
+.ouverture-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.closing{
+    position: absolute;
+    top : 2vh;
+    right: 10vw;
+
+}
 
 /*BUTTON________________________________________________________________*/
 
@@ -404,7 +440,7 @@ h1{
     font-weight: 400;
     margin-bottom: 1vh;
 }
-    
+
 
 h2{
     font-size: 4.9vw;
@@ -421,7 +457,7 @@ p{
     margin-left: 12vw;
     margin-right: 12vw;
     text-align: center;
-    
+
 }
 
 h3{
@@ -449,7 +485,7 @@ header{
     margin-bottom: 10vh;
 }
 
-    
+
 
 
 
@@ -457,13 +493,13 @@ header{
 
 footer{
     background-color: #7979BC;
-    padding-top: 7vh;
+    padding-top: 10vh;
     padding-bottom: 20vh;
     margin-top: 7vh;
 }
 
 
-    
+
 footer p{
     color: #F9F3EF;
     margin-bottom: 3vh;
