@@ -91,7 +91,9 @@
 .grille-2-projet img{
     width: 49%;
 }
- 
+
+
+
     
     
 /*NAV PROJET______________________________________________________________*/
@@ -182,9 +184,18 @@
  
 
 
+.sB-content{ 
+    display: flex;
+    flex-direction: column;
+}
 
-/* .grille-3-projet{
-    background-color: #F191BA;
+
+
+
+
+
+
+.grille-3-projet{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -192,7 +203,7 @@
     
 .grille-3-projet img{
     width: 100%;
-} */
+}
 
 
 

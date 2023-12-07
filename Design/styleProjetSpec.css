@@ -135,15 +135,52 @@
     margin-right: 2vw;
 }
 
+.txt-com-LEA{
+    margin-bottom: 2vh;
+}
+
+.txt-logo-lae-Desk{
+    display: block;
+}
+
+.txt-logo-lae-Mobile{
+    display: none;
+}
+
+
+.com-images-LEA-Desk{
+    display: block;
+}
+
+.com-images-Mobile{
+    display: none;
+}
 
 
 
+.redirection-LAE{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.redirection-LAE button{
+    background-color: #F9F3EF;
+    border-color: #966199;
+    font-size: 1.4vw;
+    margin-left: 0px;
+    margin-right: 0px;
 
+}
 
+.button-redirection-LAE :hover{
+    background-color: #966199;
+    border-color: #966199;
+    font-weight: 550 ;
+    color: #F9F3EF;
 
-
-
+}
 
 
 
@@ -251,6 +288,62 @@
 
 
 
+
+
+
+
+
+
+
+/*LAE_______________________-*/
+
+
+.txt-logo-lae-Desk{
+    display: none;
+}
+
+.txt-logo-lae-Mobile{
+    display: block;
 }
 
 
+.com-images-LEA-Desk{
+    display: none;
+}
+
+
+
+.com-images-Mobile{
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-between;
+
+}
+
+
+.com-images-Mobile img{
+    width: 49%;
+}
+
+
+
+.redirection-LAE button{
+    border-color: #966199;
+    background-color: #966199;
+    font-weight: 500 ;
+    color: #F9F3EF;
+    font-size: 4vw;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+}
