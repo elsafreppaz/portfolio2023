@@ -153,13 +153,36 @@ header{
 .ouverture{
     position: absolute;
     top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
     background-color: #F9F3EF;
     display: block;
     z-index: 4;
 }
+
+
+@keyframes ouverture{
+    from{
+        left: -100vw;
+    }
+
+    to{
+        left: 0;
+    }
+}
+
+@keyframes fermeture{
+    from{
+        left: 0;
+    }
+
+    to{
+        left: -100vw;
+    }
+}
+
+
+
 
 .ouverture p{
     color: #AFAFD7;
