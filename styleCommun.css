@@ -118,7 +118,7 @@ header{
 
 
 .headerDesktop{
-    display: none;
+    display: block;
 }
 
 .home-logo{
@@ -137,7 +137,7 @@ header{
 }
 
 .headerMobile{
-    display: block;
+    display: none;
 }
 
 
