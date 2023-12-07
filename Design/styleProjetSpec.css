@@ -190,6 +190,43 @@
 
 
 
+.conception-soul img{
+    width: 55%;
+
+}
+
+.soulFeature{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+.soulFeature p{
+    width: 50%;
+}
+
+.soulFeature img{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
