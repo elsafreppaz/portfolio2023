@@ -112,7 +112,6 @@
 }
 
 
-
     
 .button-project-nav:hover{
     background-color: #F191BA;
@@ -135,6 +134,8 @@
     cursor: default;
 }
 
+
+
 /*REPONSIVE______________________________________________________________________*/
 
 @media screen and (orientation:portrait){
@@ -152,7 +153,8 @@
 
 
 .roles p{
-    font-size: 2vw;
+    border: 1.5px solid #F191BA;
+    font-size: 3vw;
     border-radius: 8px;
     padding: 0.45vh 1.5vw;
     margin-left: 0.7vw;
@@ -215,8 +217,9 @@
     
 .project-nav-Mobile button{
 
+    padding : 1vw 1vh ;
     border-color: #7979BC;
-    border-radius: 200%;
+    border-radius: 100vw;
     background-color: #7979BC;
     font-weight: 500 ;
     color: #F9F3EF; 
