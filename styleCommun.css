@@ -487,6 +487,19 @@ header{
 
 
 
+/*HEADER________________________________________________________________*/
+
+.headerDesktop{
+    display: none;
+}
+
+.headerMobile{
+    display: block;
+}
+
+.ouverture{
+    display: none;
+}
 
 
 /*FOOTER________________________________________________________________*/
