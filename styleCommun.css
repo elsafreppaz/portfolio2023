@@ -88,7 +88,7 @@ h4 {
     color: #181717;
     text-align: center;
 
-    margin-bottom: 3vh;
+    margin-bottom: 4vh;
 }
 
 
@@ -419,9 +419,22 @@ footer h1 {
 
 
 
+.lien-git{
+    margin-top: 5vh;
+}
+
+.lien-git a{
+    color: #F9F3EF;
+    text-decoration: underline #F9F3EF;
+    text-underline-offset: 0.4vh;
+    text-decoration-thickness: from-font;
+
+}
 
 
-
+.lien-git p {
+    font-size: 1vw;
+}
 
 
 
@@ -548,10 +561,13 @@ footer h1 {
     }
 
 
+    footer h1{
+        margin-bottom: 2vh;
+    }
 
     footer p {
         color: #F9F3EF;
-        margin-bottom: 3vh;
+        margin-bottom: 4vh;
     }
 
     .redirection img {
@@ -560,6 +576,32 @@ footer h1 {
         margin-right: 1.2vw;
 
     }
+
+
+
+    .lien-git{
+        margin-top: 6vh;
+    }
+    
+    .lien-git a{
+        color: #F9F3EF;
+        text-decoration: underline #F9F3EF;
+        text-underline-offset: 0.4vh;
+        text-decoration-thickness: from-font;
+    
+    }
+    
+    
+    .lien-git p {
+        font-size: 4vw;
+    }
+    
+    
+
+
+
+
+
 
 
 }

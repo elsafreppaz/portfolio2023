@@ -195,27 +195,38 @@
 
 }
 
-.soulFeature{
+
+.soulUX{
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-
-.soulFeature p{
-    width: 50%;
-}
-
-.soulFeature img{
-    width: 50%;
+.soulUX img{
+    width: 40vw;
+    margin-right: 0px;
+    margin-left: 1.5vw;
 }
 
 
 
+.soulOnboarding p{
+    margin-top: 4vh;
+}
+
+.soulOnboarding img{
+    width: 50%;
+    margin: 0px;
+    margin-right: 1vw;
+}
 
 
+.tirageDesk{
+    display: block;
+}
 
-
-
+.tirageMobile{
+    display: none;
+}
 
 
 
@@ -376,6 +387,35 @@
 
 
 
+
+
+
+.conception-soul img{
+    width: 100%;
+}
+
+
+.soulUX{
+    flex-direction: column;
+}
+
+.soulUX img{
+    width: 100%;
+}
+
+
+.soulOnboarding img{
+    width: 100%;
+}
+
+
+.tirageDesk{
+    display: none;
+}
+
+.tirageMobile{
+    display: block;
+}
 
 
 
