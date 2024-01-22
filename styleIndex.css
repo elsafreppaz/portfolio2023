@@ -63,13 +63,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 3vw;
 }
 
 
 .creation-contenu img{
-    width: 210vw;
-    height: auto;
-    margin-left: 3vh;
+    width: 55%;
 }
 
 
