@@ -243,7 +243,14 @@
     margin-left: 0px;
     margin-right: 0px;    
 }
-    
+
+
+.project-nav-Mobile button:hover{
+    border-color: #7979BC;
+    border-radius: 100vw;
+    background-color: #7979BC;
+
+}
 
 
 
